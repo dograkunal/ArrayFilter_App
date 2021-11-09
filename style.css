@@ -1,0 +1,12 @@
+* {
+  background-color: rgb(159, 219, 219);
+}
+
+#search {
+  display: flex;
+  width: 80%;
+  margin: 15px 3px;
+  background-color: black;
+  border-style: none;
+  border-radius: 10%;
+}
