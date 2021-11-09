@@ -1,16 +1,18 @@
 * {
-  background-color: rgb(159, 219, 219);
+  box-sizing: border-box;
+  /* background-color: rgb(159, 219, 219); */
 }
 
 #search {
   display: flex;
-  width: 90%;
-  margin: 15px 3px;
-  background-color: black;
+  width: 100%;
+  /* margin: 10px; */
   border-style: none;
   border-radius: 10px;
-  justify-content: space-around;
   padding: 10px;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
 }
 
 .container {
@@ -23,8 +25,15 @@
 .card {
   display: flex;
   width: 25%;
-  margin: 20px 0;
+  margin: 30px 15px;
   box-shadow: 0 4px 8px 0 rgba(49, 224, 195, 0.2);
+  background-color: rgb(114, 80, 80);
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 12px;
   text-align: center;
-  background-color: black;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.4s all ease-in-out;
 }
